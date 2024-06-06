@@ -25,8 +25,8 @@ function drawStar(x, y, radius1, radius2, npoints, col) {
     let sx =  cos(a) * radius2;
     let sy =  sin(a) * radius2;
     vertex(sx, sy);
-    sx = x + cos(a + halfAngle) * radius1;
-    sy = y + sin(a + halfAngle) * radius1;
+    sx =  cos(a + halfAngle) * radius1;
+    sy =  sin(a + halfAngle) * radius1;
     vertex(sx, sy);
   }
   endShape(CLOSE);
