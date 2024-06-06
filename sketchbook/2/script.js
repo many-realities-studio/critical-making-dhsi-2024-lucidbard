@@ -18,7 +18,7 @@ function drawStar(x, y, radius1, radius2, npoints, col) {
   let halfAngle = angle / 2.0;
   //rotate slowly every frame
   translate(x,y)
-  rotate(frameCount / 1.0);
+  rotate(frameCount);
   fill(col);
   beginShape();
   for (let a = 0; a < TWO_PI; a += angle) {
