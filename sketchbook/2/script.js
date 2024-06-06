@@ -10,7 +10,7 @@ function draw() {
   background(220);
   // Example usage of drawStar function
   drawStar(width / 2, height / 2, 30, 70, 5, color(255, 204, 0));
-  draw
+  
 }
 
 // Function to draw a star
