@@ -3,7 +3,7 @@
 
 function setup() {
   createCanvas(400, 400);
-  noLoop(); // Prevent draw from looping
+  // noLoop(); // Prevent draw from looping
 }
 
 function draw() {
