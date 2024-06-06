@@ -22,8 +22,8 @@ function drawStar(x, y, radius1, radius2, npoints, col) {
   fill(col);
   beginShape();
   for (let a = 0; a < TWO_PI; a += angle) {
-    let sx = x + cos(a) * radius2;
-    let sy = y + sin(a) * radius2;
+    let sx =  cos(a) * radius2;
+    let sy =  sin(a) * radius2;
     vertex(sx, sy);
     sx = x + cos(a + halfAngle) * radius1;
     sy = y + sin(a + halfAngle) * radius1;
