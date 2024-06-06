@@ -13,6 +13,7 @@ function draw() {
 function drawStar(x, y, radius1, radius2, npoints, col) {
   let angle = TWO_PI / npoints;
   let halfAngle = angle / 2.0;
+  
   fill(col);
   beginShape();
   for (let a = 0; a < TWO_PI; a += angle) {
